@@ -1,10 +1,15 @@
 import React from 'react';
+import Rootlayout from './components/layout/Rootlayout';
+
+
+// assets
+
 
 function App() {
   return (
-    <h1 className="bg-red-600 text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className="container backdrop-blur bg-white/50 dark:bg-black/40 h-[90vh] w-[95vw] rounded-2xl overflow-y-hidden">
+      <Rootlayout />
+    </div>
   );
 }
 

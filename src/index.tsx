@@ -11,5 +11,5 @@ const root = ReactDOM.createRoot(
     <React.StrictMode>
       <App />
     </React.StrictMode>
-      );
+  );
 
