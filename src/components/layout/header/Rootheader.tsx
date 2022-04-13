@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Mobilemenu from './Mobilemenu'
 import Logoheader from './Logoheader'
 import Menuheader from './Menuheader'
