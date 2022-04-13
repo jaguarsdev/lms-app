@@ -18,8 +18,27 @@
 
 
 
+
+    /* Scroll1 UI */
+      .scroll1::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      .scroll1::-webkit-scrollbar-track {
+        border-radius:20px;
+        background: #ddd;
+      }
+      
+      .scroll1::-webkit-scrollbar-thumb {
+        border-radius:20px;
+        background: #666;
+      }
+
+
+
+    
     /* Day&Night Click */
-    .dayNight {
+      .dayNight {
         cursor: pointer;
       }
       .dayNight input {
